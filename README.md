@@ -9,7 +9,7 @@ Some ideas:
 
 * Where am I :white_check_mark:
  * Return GeoJSON using the client's IP with the geoip module
-* Implement the [HTCPCP](http://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol) in pure nginx conf
+* Implement the [HTCPCP](http://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol) in pure nginx conf :white_check_mark:
 
 Things I must play with:
 
