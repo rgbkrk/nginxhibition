@@ -1,11 +1,11 @@
 nginxibition
 ============
 
-Nginx can do a lot of neat things.
-
-While trying to fix an issue on some production servers, I noticed some nginx features I never touch but were just begging to be played with.
+Nginx can do a lot of neat things, most of which I had *no idea* about until recently. It is time to uncover some **nginxcellence**.
 
 # Nginx Tomfoolery as a Service
+
+This is a collection of nginx silliness. If you have something wacky that needs to end up as part of an nginx configuration, please add it here.
 
 ## Where am I :white_check_mark:
 
