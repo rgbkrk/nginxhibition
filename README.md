@@ -9,7 +9,14 @@ While trying to fix an issue on some production servers, I noticed some nginx fe
 
 ## Where am I :white_check_mark:
 
-Returns GeoJSON with lon/lat using the client's IP with the geoip module
+Returns GeoJSON with lon/lat using the client's IP with the geoip module. 
+
+```bash
+curl http://23.253.232.101/whereami
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [-98.3987, 29.4889] }, "properties": { "ip": "23.253.232.101" } }
+```
+
+GeoIPs are almost always off, but hey this is just for fun. The IP below is actually around Dallas, TX but the coordinates given are for San Antonio, TX (home base of Rackspace, who owns the IP address).
 
 ## [Hyper Text Coffee Pot Control Protocol](http://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol) :white_check_mark:
 
@@ -23,6 +30,8 @@ Brewing coffee.
 $ curl http://23.253.232.101/coffee
 Your coffee is served.
 ```
+
+There are more commands you can send the coffeepot. Try for yourself, add more in a PR.
 
 # Must play with later
 
