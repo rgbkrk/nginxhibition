@@ -1,6 +1,9 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# NOTE: This Vagrantfile doesn't actually do any provisioning currently. I just put it
+#       here so that I *could* once I got to a happy state. For now, just use the bootstrap.sh.
+
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
