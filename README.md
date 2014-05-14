@@ -1,5 +1,5 @@
-nginxibition
-============
+nginxhibition
+=============
 
 Nginx can do a lot of neat things, most of which I had *no idea* about until recently. It is time to uncover some **nginxcellence**.
 
