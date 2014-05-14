@@ -35,7 +35,8 @@ There are more commands you can send the coffeepot. Try for yourself, add more i
 
 # Must play with later
 
-* Postgres for nginx
+* [Postgres for nginx](https://github.com/FRiCKLE/ngx_postgres/)
+ * Use it to create a [simple API to a database](http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html). What could possibly go wrong?
 * Redis for nginx
 * Memcached for nginx
 
